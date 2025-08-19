@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Astrotalk</title>
+    <link rel="icon" href="https://razorpay.com/assets/case-studies/astrotalk/banner.png">
+    <style>
+        body{
+            background-image: url(./astro.jpg);
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+  </head>
+  <body style="color: rgb(243, 243, 247);">
+    <form style="color: aliceblue;">
+     <h1>Wanna know your future..?</h1><br><br>
+        <label for="nm">Enter name:</label>
+        <input type="text" placeholder="full name" id="nm" required/> <br /><br />
+        <label for="m">Gender:</label>
+        <input type="radio" name="gender" value="male" id="m" required/> 
+        <label for="m">Male</label>
+         <input type="radio" name="gender" value="female" id="f" required/>
+        <label for="f">Female</label><br><br>
+
+        <label for="em">Enter email:</label>
+        <input type="email" placeholder="eg:.....@gmail.com" id="em" required pattern="[A-Za-z0-9]+@[A-za-z]+\.com" /><br /><br />
+        <label for="num">Enter Mobile Number:</label>
+        <input type="number" placeholder="eg:1234567890" id="num" required pattern="[0-9]{10}"/> <br /><br />
+        <label for="dob">Enter DOB:</label>
+        <input type="date"  id="dob" required><br><br>
+        <label for="tm">Enter Time:</label>
+        <input type="time"  id="tm" required><br><br>
+        <label for="tr">Trace/Rasi:</label>
+        <select name="trace" id="tr">
+            <option>Aries</option>
+            <option value="taurus">Taurus</option>
+            <option value="gemini">Gemini</option>
+            <option value="cancer">Cancer</option>
+            <option value="leo">Leo</option>
+            <option value="uirgo">Uirgo</option>
+            <option value="scorpio">Scorpio</option>
+            <option value="saqittarius">saqittarius</option>
+            <option value="capricon">Capricon</option>
+            <option value="capricon">Capricon</option>
+            <option value="aquaries">Aquaries</option>
+            <option value="pisces">Pisces</option>
+             </select><br><br>
+             <label for="nk">Nakshatra/Star:</label>
+        <select name="nakshatram" id="nk">
+            <option>Bharani</option>
+            <option>Rohini</option>
+            <option>Punarvasu</option>
+             <option>Anuradha</option>
+              <option>Dhanista</option>
+               <option>Utara Badrapadu</option>
+                <option>Ashwini</option>
+                 <option>krittika</option>
+                  <option>Mrigashirsha</option>
+                   <option>Ardra</option>
+                    <option>Pusya</option>
+                     <option>Ashlesha</option>
+                      <option>Magha</option>
+                       <option>Ashta</option>
+                        <option>chitra</option>
+                         <option>swati</option>
+                          <option>moola</option>
+                           <option>vishaka</option>
+             </select><br><br>
+
+       
+
+        <button >submit</button>
+      
+    </form>
+    <blockquote >
+       <h1 style="width: 400px;margin-top: 100PX;"> “Millionaires don’t use astrology, billionaires do.”</h1>
+    </blockquote>
+  </body>
+</html>
